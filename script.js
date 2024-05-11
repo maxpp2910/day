@@ -36,10 +36,8 @@ $(function(){
 
   //add an image bucle to show diferent images every 5 seconds
   var images = [
-    'https://i.ibb.co/xSjbz3B/Nobody-is-better-at-motherhood-than-you-2.jpg',
-    'https://url-to-your-second-image.jpg',
-    'https://url-to-your-third-image.jpg',
-
+    'https://media.discordapp.net/attachments/1227836073778876450/1238979676039282698/melany.png?ex=6641413d&is=663fefbd&hm=636799571b90dd590efd381385d84a9cf43000fb97694cc85ee7bd6580efba06&=&format=webp&quality=lossless&width=597&height=597',
+    'https://media.discordapp.net/attachments/1227836073778876450/1238979676563705876/tony.png?ex=6641413e&is=663fefbe&hm=20f2dce09237b29c56aa22ce8b165b8bdabd7d5f2ad9c5df6fcd3e3e12048b11&=&format=webp&quality=lossless&width=597&height=597'
 ];
 
 var counter = 0;
@@ -51,6 +49,6 @@ setInterval(function() {
     if (counter === images.length) {
         counter = 0;
     }
-}, 3500);
+}, 5000);
 
 });
